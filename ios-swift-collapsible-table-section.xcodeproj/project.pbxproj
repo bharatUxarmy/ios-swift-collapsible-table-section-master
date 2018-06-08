@@ -108,7 +108,7 @@
 				0A908DE71CFCAA9200470F33 /* Sources */,
 				0A908DE81CFCAA9200470F33 /* Frameworks */,
 				0A908DE91CFCAA9200470F33 /* Resources */,
-				2D9D5F75DA4DDD0AAEA63EC1 /* [CP] Embed Pods Frameworks */,
+				6E430B4D2C016F6637F6A721 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,24 +166,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D9D5F75DA4DDD0AAEA63EC1 /* [CP] Embed Pods Frameworks */ = {
+		6E430B4D2C016F6637F6A721 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ios-swift-collapsible-table-section/Pods-ios-swift-collapsible-table-section-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-swift-collapsible-table-section/Pods-ios-swift-collapsible-table-section-resources.sh",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_background.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_comment.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_error.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_female_black.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_female_white.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_look.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_male_black.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_male_white.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_menu.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_radio_select.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_recording_on.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_retake.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_success.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_tick.png",
+				"${PODS_ROOT}/UXsdk/Resources/ic_sdk_wifi_off.png",
+				"${PODS_ROOT}/UXsdk/Resources/SDKFeedbackView.xib",
+				"${PODS_ROOT}/UXsdk/Resources/SDKRetakeTaskView.xib",
+				"${PODS_ROOT}/UXsdk/Resources/SDKStarting.xib",
+				"${PODS_ROOT}/UXsdk/Resources/SDKTaskDetailView.xib",
+				"${PODS_ROOT}/UXsdk/Resources/SDKUploadingView.xib",
+				"${PODS_ROOT}/UXsdk/Resources/SDKUserDetailView.xib",
+				"${PODS_ROOT}/UXsdk/Resources/SDKWelcomeView.xib",
+				"${PODS_ROOT}/UXsdk/Resources/UploadingCompleteTone.mp3",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_background.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_comment.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_error.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_female_black.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_female_white.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_look.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_male_black.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_male_white.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_menu.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_radio_select.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_recording_on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_retake.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_success.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_tick.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_sdk_wifi_off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKFeedbackView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKRetakeTaskView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKStarting.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKTaskDetailView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKUploadingView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKUserDetailView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDKWelcomeView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UploadingCompleteTone.mp3",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-swift-collapsible-table-section/Pods-ios-swift-collapsible-table-section-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-swift-collapsible-table-section/Pods-ios-swift-collapsible-table-section-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAA3D39D311C89A2EE5224F0 /* [CP] Check Pods Manifest.lock */ = {
